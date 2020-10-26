@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 1400px;
+    height: 1021px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/main-backround.png);
+    width: 1400px;
+    height: 326px;
+}
+
+.section {
+    display: inline-block;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 448px;
+    height: 40px;
+    margin: 76px 476px 48px 476px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.line {
+    width: 64px;
+    height: 1px;
+    margin: 48px 668px 30px 668px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    opacity: 80%;
+    width: 779px;
+    height: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 30px 311px 30px 310px;
+}
+
+.button {
+    background:transparent;
+    border: none;
+    color: white;
+    font-family: 'Open Sans' normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    padding: 11px 26px 11px 26px;
+    outline: none;
+}
+
+.button-border {
+    width: 135px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    margin: 30px 633px 38px 632px;
+}
+
+.footer {
+    width: 1400px;
+    height: 101px;
+    margin: 0 auto;
+    background: black;
+}
+
+.footer-links {
+    display: inline-block;
+    width: 317px;
+    height: 23px;
+    padding-left: 0px;
+    margin: 30px 541px 0px 542px;
+    background-image: url(../img/footer-social-icons.png);
+}
+
+.footer-links > li {
+    display: inline-block;
+    width: 37px;
+    height: 23px;
+    padding: 2px;
+    margin: 0px auto;
+    list-style-type: none;
+}
+
+.footer-links > li {
+    cursor: pointer;
+}
+
+.footer-links > li > a {
+    height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.footer > p {
+    width: 130px;
+    height: 15px;
+    padding-top: 10px;
+    margin-left: 635px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
